@@ -11,12 +11,12 @@
 
 html {
   min-height: 100%;
-  color: #FFFFFF;
 }
 
 body {
   font-family: 'donau';
   background:  #69B3E1;
+  color: #FFFFFF;
 }
 
 /* ---------------- header menu css -------------------- */
@@ -65,7 +65,39 @@ a {
 /* ----------------- container css ------------------ */
 
 .container {
-  margin: 0 auto;
-  overflow: hidden;
-  max-width: 1000px;
+   margin: 0 auto;
+   overflow: hidden;
+   max-width: 1000px;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+.container .left-container {
+    max-width: 500px;
+    margin: 0 auto 150px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.container .right-container {
+    max-width: 500px;
+    margin: 0 auto 150px;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+.container .left-container h1 {
+  font-size: 65px;
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 0px;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  line-height: 1.9;
+  padding: 40px 20px 0 20px;
+  font-size: 20px;
 }
