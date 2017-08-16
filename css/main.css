@@ -1,0 +1,71 @@
+/* header menu */
+/*
+メインカラーコード：#69B3E1;
+ヘッダーカラーオード：#207FBA;
+*/
+
+@font-face {
+	font-family: 'donau';
+	src: local('donau'),url(font/donau/donau.otf);
+}
+
+html {
+  min-height: 100%;
+  color: #FFFFFF;
+}
+
+body {
+  font-family: 'donau';
+  background:  #69B3E1;
+}
+
+/* ---------------- header menu css -------------------- */
+.header {
+  background-color: #207FBA;
+}
+
+header #TopMenuList {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header #TopMenuList ul {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: left;
+  justify-content: left;
+  list-style: none;
+  padding-left: 0px;
+  font-family: 'donau';
+}
+
+header #TopMenuList ul li {
+  font-size: 20px;
+}
+
+header #TopMenuList ul li a {
+  display: block;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-family: 'donau';
+}
+
+header #TopMenuList ul li a:hover {
+  background-color: #196695;
+  curser: pointer;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* ----------------- header menu css ------------------ */
+
+/* ----------------- container css ------------------ */
+
+.container {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1000px;
+}
