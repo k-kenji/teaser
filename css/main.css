@@ -66,6 +66,8 @@ a {
 
 .container {
    margin: 0 auto;
+	 padding-left: 0px;
+	 padding-right: 0px;
    overflow: hidden;
    max-width: 1000px;
    display: -webkit-flex;
@@ -100,4 +102,11 @@ a {
   line-height: 1.9;
   padding: 40px 20px 0 20px;
   font-size: 20px;
+}
+
+.first-device {
+	width: 730px;
+	position: absolute;
+  top: 60px;
+  left: 599px;
 }
